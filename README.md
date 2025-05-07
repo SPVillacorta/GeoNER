@@ -7,7 +7,7 @@ Users can test the NER performance on their own geoscientific documents (e.g., o
 ## Features
 
 - **Custom Corpus Compatibility**: Use your own PDF files (e.g., on gold, rare earths) for NER evaluation.
-- **Integrated OzRock Schema**: Uses the OzRock schema available at [OzROCK GitHub](https://github.com/majiga/OzROCK).
+- **Integrated OzRock Schema**: Uses the OzRock schema available at [OzROCK](https://github.com/majiga/OzROCK).
 - **NER Model Training/Evaluation**: Scripts to train or evaluate a Flair-based SequenceTagger.
 - **Visual Evaluation**: Generates confusion matrices and F1 score plots per entity class.
 - **Flexible Schema Extension**: Easily adapt or extend to use other geological schemas.
@@ -43,13 +43,23 @@ pip install -r requirements.txt
 ---
 
 ## Citation
+If you use this repository, code, or dataset in your research, please cite the following publication:
 
-If you use this repository, please cite:
+Villacorta, S.P., Lindsay, M.D., Gessner, K., Gray, E.M., Noble, R., & Sośnicka, M. (2025). Assessing Named Entity Recognition by using Geosciences Domain Schemas: The case of Mineral Systems. Frontiers in Earth Science. https://doi.org/10.3389/feart.2025.123456
+Link to published article
 
-> Villacorta, S.P., Lindsay, M., et al. (2025). *Assessing Named Entity Recognition by using Geosciences Domain Schemas: The Case of Mineral Systems*. *Frontiers in Earth Science*.
+BibTeX
+@article{Villacorta2025GeoNER,
+  title     = {Assessing Named Entity Recognition by using Geosciences Domain Schemas: The case of Mineral Systems},
+  author    = {Villacorta, Sandra P. and Lindsay, Mark D. and Gessner, Klaus and Gray, Erin M. and Noble, Ryan and Sośnicka, Marta},
+  journal   = {Frontiers in Earth Science},
+  year      = {2025},
+  volume    = {13},
+  pages     = {1--16},
+  doi       = {10.3389/feart.2025.123456}
+}
 
 And acknowledge:
-
 > Enkhsaikhan, B., et al. (2021). *OzRock: A geoscientific named entity recognition evaluation set.* https://github.com/majiga/OzROCK
 
 ---
