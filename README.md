@@ -45,13 +45,12 @@ pip install -r requirements.txt
 ## Citation
 If you use this repository, code, or dataset in your research, please cite the following publication:
 
-Villacorta, S.P., Lindsay, M.D., Gessner, K., Gray, E.M., Noble, R., & Sośnicka, M. (2025). Assessing Named Entity Recognition by using Geosciences Domain Schemas: The case of Mineral Systems. Frontiers in Earth Science. [https://doi.org/10.3389/feart.2025.123456](https://doi.org/10.3389/feart.2025.1530004)
-Link to published article
+Villacorta, S.P., Lindsay, M., Klump, J., Gessner, K., Gray, E., & McFarlane, H. Assessing Named Entity Recognition by using Geosciences Domain Schemas: The case of Mineral Systems. Frontiers in Earth Science, 13, 1530004. [https://doi.org/10.3389/feart.2025.123456](https://doi.org/10.3389/feart.2025.1530004)
 
 BibTeX
 @article{Villacorta2025GeoNER,
   title     = {Assessing Named Entity Recognition by using Geosciences Domain Schemas: The case of Mineral Systems},
-  author    = {Villacorta, Sandra P. and Lindsay, Mark D. and Gessner, Klaus and Gray, Erin M. and Noble, Ryan and Sośnicka, Marta},
+  author    = {Villacorta, S.P., Lindsay, M., Klump, J., Gessner, K., Gray, E., & McFarlane, H},
   journal   = {Frontiers in Earth Science},
   year      = {2025},
   volume    = {13},
@@ -67,6 +66,11 @@ And acknowledge:
 ## License
 
 This repository is licensed under the MIT License.
+
+---
+
+## Contact
+Please email your questions or comments to Sandra Villacorta.
 
 ---
 
