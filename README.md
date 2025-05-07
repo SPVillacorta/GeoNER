@@ -65,7 +65,7 @@ And acknowledge:
 
 ## License
 
-This repository is licensed under the MIT License.
+This repository is licensed under the MIT [LICENSE](LICENSE).
 
 ---
 
