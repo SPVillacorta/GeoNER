@@ -48,6 +48,7 @@ If you use this repository, code, or dataset in your research, please cite the f
 Villacorta, S.P., Lindsay, M., Klump, J., Gessner, K., Gray, E., & McFarlane, H. Assessing Named Entity Recognition by using Geosciences Domain Schemas: The case of Mineral Systems. Frontiers in Earth Science, 13, 1530004. [https://doi.org/10.3389/feart.2025.123456](https://doi.org/10.3389/feart.2025.1530004)
 
 BibTeX
+
 @article{Villacorta2025GeoNER,
   title     = {Assessing Named Entity Recognition by using Geosciences Domain Schemas: The case of Mineral Systems},
   author    = {Villacorta, S.P., Lindsay, M., Klump, J., Gessner, K., Gray, E., & McFarlane, H},
