@@ -17,8 +17,8 @@ Users can test the NER performance on their own geoscientific documents (e.g., o
 ## Installation
 
 ```bash
-git clone https://github.com/SPVillacorta/GeoNER-Flair-OzRock.git
-cd GeoNER-Flair-OzRock
+git clone https://github.com/SPVillacorta/GeoNER.git
+cd GeoNER
 pip install -r requirements.txt
 ```
 
@@ -45,7 +45,7 @@ pip install -r requirements.txt
 ## Citation
 If you use this repository, code, or dataset in your research, please cite the following publication:
 
-Villacorta, S.P., Lindsay, M.D., Gessner, K., Gray, E.M., Noble, R., & Sośnicka, M. (2025). Assessing Named Entity Recognition by using Geosciences Domain Schemas: The case of Mineral Systems. Frontiers in Earth Science. https://doi.org/10.3389/feart.2025.123456
+Villacorta, S.P., Lindsay, M.D., Gessner, K., Gray, E.M., Noble, R., & Sośnicka, M. (2025). Assessing Named Entity Recognition by using Geosciences Domain Schemas: The case of Mineral Systems. Frontiers in Earth Science. [https://doi.org/10.3389/feart.2025.123456](https://doi.org/10.3389/feart.2025.1530004)
 Link to published article
 
 BibTeX
@@ -56,7 +56,7 @@ BibTeX
   year      = {2025},
   volume    = {13},
   pages     = {1--16},
-  doi       = {10.3389/feart.2025.123456}
+  doi       = {[10.3389/feart.2025.123456](https://doi.org/10.3389/feart.2025.1530004)}
 }
 
 And acknowledge:
