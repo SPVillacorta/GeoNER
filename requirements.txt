@@ -1,0 +1,10 @@
+glob2
+nltk
+matplotlib
+numpy
+pdfplumber
+pdfminer.six
+pandas
+seaborn
+flair
+scikit-learn
