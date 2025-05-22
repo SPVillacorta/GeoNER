@@ -42,6 +42,13 @@ pip install -r requirements.txt
 
 ---
 
+## Example Use Case: Iron Ore Corpus Analysis
+This pipeline was originally tested on a collection of 20 PDF research papers related to iron ore deposits in Western Australia. These papers were used to evaluate the performance of NER tagging based on the OzRock schema.
+### Note: Some of the PDFs used in our experiments were obtained via institutional access or direct purchase. To support reproducibility, we recommend using freely accessible research papers available from sources like Google Scholar. Once downloaded, place your PDF files in the appropriate folder (e.g., data/pdf/) and follow the steps in the How to Use section to extract and process the documents.
+```
+
+---
+
 ## Citation
 If you use this repository, code, or dataset in your research, please cite the following publication:
 
