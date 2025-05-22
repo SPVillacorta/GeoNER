@@ -14,6 +14,20 @@ Users can test the NER performance on their own geoscientific documents (e.g., o
 
 ---
 
+## Try on Google Colab
+Run GeoNER directly in your browser by clicking the button below:
+[![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/SPVillacorta/GeoNER/blob/main/GeoNER_colab.ipynb)
+
+The notebook includes:
+Automatic installation of all required dependencies (Flair, pdfplumber, etc.).
+Example usage of the pretrained NER model based on the OzRock schema.
+Option to upload your own geoscientific PDF documents.
+Entity recognition and basic evaluation on sample texts.
+Visual outputs such as confusion matrices and class-wise F1 scores.
+📁 Tip: You can upload your own corpus (e.g., papers on lithium, iron, or copper) directly to the Colab session and process them by updating the PDF path in the notebook.
+
+...
+
 ## Installation
 
 ```bash
@@ -42,10 +56,10 @@ pip install -r requirements.txt
 
 ---
 
-## Example Use Case: Iron Ore Corpus Analysis
+### Example Use Case: Iron Ore Corpus Analysis
 This pipeline was originally tested on a collection of 20 PDF research papers related to iron ore deposits in Western Australia. These papers were used to evaluate the performance of NER tagging based on the OzRock schema.
-### Note: Some of the PDFs used in our experiments were obtained via institutional access or direct purchase. To support reproducibility, we recommend using freely accessible research papers available from sources like Google Scholar. Once downloaded, place your PDF files in the appropriate folder (e.g., data/pdf/) and follow the steps in the How to Use section to extract and process the documents.
-```
+
+Note: Some of the PDFs used in our experiments were obtained via institutional access or direct purchase. To support reproducibility, we recommend using freely accessible research papers available from sources like Google Scholar. Once downloaded, place your PDF files in the appropriate folder (e.g., data/pdf/) and follow the steps in the How to Use section to extract and process the documents.
 
 ---
 
