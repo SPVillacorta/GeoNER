@@ -1,4 +1,4 @@
-# GeoNER
+# GeoNER-SchemaEval
 This project provides a framework for evaluating Named Entity Recognition (NER) in geoscientific texts using the [Flair NLP library](https://github.com/flairNLP/flair) and domain-specific schemas. It supports user-provided PDF corpora and integrates the OzRock schema, a publicly available geoscience NER schema, for entity tagging.
 Users can test the NER performance on their own geoscientific documents (e.g., on lithium, iron, copper, or other mineral systems), using pretrained models and schema-based annotations.
 
@@ -16,7 +16,7 @@ Users can test the NER performance on their own geoscientific documents (e.g., o
 
 ## Try on Google Colab
 Run GeoNER directly in your browser by clicking the button below:
-[![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/SPVillacorta/GeoNER/blob/main/GeoNER_colab.ipynb)
+[![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/SPVillacorta/GeoNER-SchemaEval/blob/main/geoner_schema_eval.ipynb)
 
 The notebook includes:
 Automatic installation of all required dependencies (Flair, pdfplumber, etc.).
