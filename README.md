@@ -16,8 +16,7 @@ Users can test the NER performance on their own geoscientific documents (e.g., o
 
 ## Try on Google Colab
 Run GeoNER directly in your browser by clicking the button below:
-[![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/SPVillacorta/GeoNER-SchemaEval/blob/main/geoner_schema_eval.ipynb)
-
+[![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/SPVillacorta/GeoNER-SchemaEval/blob/main/notebooks/ner_model_evaluation.ipynb)
 The notebook includes:
 Automatic installation of all required dependencies (Flair, pdfplumber, etc.).
 Example usage of the pretrained NER model based on the OzRock schema.
