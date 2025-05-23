@@ -35,7 +35,6 @@ cd GeoNER
 pip install -r requirements.txt
 ```
 
----
 
 ## How to Use
 
