@@ -22,16 +22,49 @@ Installation of required dependencies (Flair, pdfplumber, etc.).
 Example usage of the pretrained NER model based on the OzRock schema.
 Entity recognition and basic evaluation on sample texts.
 Visual outputs such as confusion matrices and class-wise F1 scores.
+
 📁 Note: You can upload your own corpus on mineral systems (e.g., papers on lithium, iron, or copper) directly to the Colab session and process them by updating the PDF file in the notebook.
 
 ...
 
 ## Installation
 
-```bash
-git clone https://github.com/SPVillacorta/GeoNER.git
-cd GeoNER
-pip install -r requirements.txt
+## Running Locally
+
+If you prefer to run this project on your local machine, ensure you have Git and Python (preferably with `conda` or `venv`) installed.
+
+1.  **Clone the repository:**
+    ```bash
+    git clone [https://github.com/SPVillacorta/GeoNER-SchemaEval.git](https://github.com/SPVillacorta/GeoNER-SchemaEval.git)
+    cd GeoNER-SchemaEval
+    ```
+
+2.  **Install dependencies:**
+    It is recommended to create a virtual environment to manage dependencies:
+    ```bash
+    python -m venv venv
+    source venv/bin/activate  # On Windows: venv\Scripts\activate
+    pip install -r requirements.txt
+    ```
+
+3.  **Download the pre-trained model:**
+    The `best-model.pt` file is approximately 238 MB and is not stored directly on GitHub. You will need to download it manually and place it in the correct directory.
+    * **Download Link:** [**Click here to download `best-model.pt` from Google Drive**](YOUR_GOOGLE_DRIVE_DIRECT_DOWNLOAD_LINK_HERE)
+        * **Important:** Ensure this Google Drive link is set to "Anyone with the link" for public access.
+    * **Placement:** After downloading, place the `best-model.pt` file into the `ozrock/model/` directory within your cloned repository:
+        ```
+        GeoNER-SchemaEval/
+        └── ozrock/
+            └── model/
+                └── best-model.pt  <-- Place the downloaded file here
+        ```
+
+4.  **Run the Jupyter Notebook:**
+    Once the model is downloaded and placed, you can run the notebook:
+    ```bash
+    jupyter notebook notebooks/ner_model_evaluation.ipynb
+    ```
+
 ```
 
 
