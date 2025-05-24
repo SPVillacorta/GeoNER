@@ -1,16 +1,16 @@
 # GeoNER-SchemaEval
-This project provides a framework for evaluating Named Entity Recognition (NER) in geoscientific texts using the [Flair NLP library](https://github.com/flairNLP/flair) and domain-specific schemas. It supports user-provided PDF corpora and integrates the OzRock schema, a publicly available geoscience NER schema, for entity tagging.
-Users can test the NER performance on their own geoscientific documents (e.g., on lithium, iron, copper, or other mineral systems), using pretrained models and schema-based annotations.
+This project provides a framework for evaluating Named Entity Recognition (NER) in geoscientific texts using the [Flair NLP library](https://github.com/flairNLP/flair) and domain-specific schemas. It supports user-provided PDF corpora and integrates the [OzROCK](https://github.com/majiga/OzROCK) schema, for entity tagging.
+Users can test the NER performance on their own geoscientific documents related to mineral systems, using pretrained models and schema-based annotations.
 
 ---
 
 ## Features
 
-- **Custom Corpus Compatibility**: Use your own PDF files (e.g., on gold, rare earths) for NER evaluation.
+- **Custom Corpus Compatibility**: Use your own PDF files on mineral systems (e.g., on gold, rare earths) for NER evaluation.
 - **Integrated OzRock Schema**: Uses the OzRock schema available at [OzROCK](https://github.com/majiga/OzROCK).
 - **NER Model Training/Evaluation**: Scripts to train or evaluate a Flair-based SequenceTagger.
 - **Visual Evaluation**: Generates confusion matrices and F1 score plots per entity class.
-- **Flexible Schema Extension**: Easily adapt or extend to use other geological schemas.
+- **Flexible Schema Extension**: Easily adapt or extend to other geological schemas.
 
 ---
 
