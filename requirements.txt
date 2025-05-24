@@ -3,8 +3,12 @@ nltk
 matplotlib
 numpy
 pdfplumber
-pdfminer.six
+flair
+pdfplumber
+pdfminer.six # This is the most common
+scikit-learn
 pandas
 seaborn
-flair
-scikit-learn
+matplotlib
+numpy
+gdown
