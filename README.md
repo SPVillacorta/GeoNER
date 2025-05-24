@@ -18,12 +18,11 @@ Users can test the NER performance on their own geoscientific documents related 
 Run GeoNER directly in your browser by clicking 
 [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/SPVillacorta/GeoNER-SchemaEval/blob/main/notebooks/geoner_schema_eval.ipynb)
 The notebook includes:
-Automatic installation of all required dependencies (Flair, pdfplumber, etc.).
+Installation of required dependencies (Flair, pdfplumber, etc.).
 Example usage of the pretrained NER model based on the OzRock schema.
-Option to upload your own geoscientific PDF documents.
 Entity recognition and basic evaluation on sample texts.
 Visual outputs such as confusion matrices and class-wise F1 scores.
-📁 Tip: You can upload your own corpus (e.g., papers on lithium, iron, or copper) directly to the Colab session and process them by updating the PDF path in the notebook.
+📁 Note: You can upload your own corpus on mineral systems (e.g., papers on lithium, iron, or copper) directly to the Colab session and process them by updating the PDF file in the notebook.
 
 ...
 
