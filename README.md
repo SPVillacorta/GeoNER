@@ -2,7 +2,7 @@
 
 This project provides a framework for evaluating Named Entity Recognition (NER) in geoscientific texts using the [Flair NLP library](https://github.com/flairNLP/flair) and domain-specific schemas like the [OzROCK](https://github.com/majiga/OzROCK), for entity tagging.
 Users can test the NER performance on their own PDF geoscientific documents related to mineral systems, using pretrained models and schema-based annotations.
----
+
 
 ## Features
 
@@ -88,7 +88,6 @@ This pipeline was originally tested on a collection of 20 PDF research papers re
 Note: Some of the PDFs used in our experiments were obtained via institutional access or direct purchase. To support reproducibility, we recommend using freely accessible research papers available from sources like Google Scholar. Once downloaded, place your PDF files in the appropriate folder (e.g., data/pdf/) and follow the steps in the How to Use section to extract and process the documents.
 
 ---
-
 ## Citation
 
 If you use this repository, code, or dataset in your research, please cite the following publication:
@@ -106,30 +105,38 @@ If you use this repository, code, or dataset in your research, please cite the f
 
 And acknowledge:
 > Enkhsaikhan, B., et al. (2021). *OzRock: A geoscientific named entity recognition evaluation set.* https://github.com/majiga/OzROCK
-
 ---
+
+
 
 ---
 ### License
-
-This repository is licensed under the MIT [LICENSE](LICENSE).
+----------------------
 ---
+This repository is licensed under the MIT [LICENSE](LICENSE).
+
 ---
 
 ---
 ## Contact
-Please email your questions or comments to Sandra Villacorta.
 ---
+Please email your questions or comments to Sandra Villacorta.
+
 ---
 
 
 ## Contributing
+---
 
 We welcome pull requests and suggestions for improvement. Please open an issue to discuss your ideas.
----
+
 ---
 
 ---
 ## Acknowledgments
 
 Thanks to CSIRO and the Geological Survey of Western Australia for supporting research.
+
+
+
+---
