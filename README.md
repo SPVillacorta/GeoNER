@@ -107,30 +107,29 @@ If you use this repository, code, or dataset in your research, please cite the f
 And acknowledge:
 > Enkhsaikhan, B., et al. (2021). *OzRock: A geoscientific named entity recognition evaluation set.* https://github.com/majiga/OzROCK
 
-
 ---
 
-
-## License
+---
+### License
 
 This repository is licensed under the MIT [LICENSE](LICENSE).
-
+---
 ---
 
-
+---
 ## Contact
 Please email your questions or comments to Sandra Villacorta.
-
+---
 ---
 
 
 ## Contributing
 
 We welcome pull requests and suggestions for improvement. Please open an issue to discuss your ideas.
-
+---
 ---
 
-
+---
 ## Acknowledgments
 
 Thanks to CSIRO and the Geological Survey of Western Australia for supporting research.
