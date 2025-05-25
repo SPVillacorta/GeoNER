@@ -57,11 +57,11 @@ If you prefer to run this project on your local machine, ensure you have Git and
         ```
 
 4.  **Run the Jupyter Notebook:**
-    Once the model is downloaded and placed, you can run the notebook:
+    Once the model is downloaded and placed, you can run:
     ```bash
-    jupyter notebook notebooks/ner_model_evaluation.ipynb
+    jupyter notebook geoner_schema_eval.ipynb
     ```
-
+    
 ## How to Use
 
 Follow these steps to use the `GeoNER-SchemaEval` framework:
@@ -82,7 +82,7 @@ Follow these steps to use the `GeoNER-SchemaEval` framework:
 
 ---
 
-### Example Use Case: Iron Ore Corpus Analysis
+# Example Use Case: Iron Ore Corpus Analysis
 This pipeline was originally tested on a collection of 20 PDF research papers related to iron ore deposits in Western Australia. These papers were used to evaluate the performance of NER tagging based on the OzRock schema.
 
 Note: Some of the PDFs used in our experiments were obtained via institutional access or direct purchase. To support reproducibility, we recommend using freely accessible research papers available from sources like Google Scholar. Once downloaded, place your PDF files in the appropriate folder (e.g., data/pdf/) and follow the steps in the How to Use section to extract and process the documents.
