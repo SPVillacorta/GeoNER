@@ -10,7 +10,6 @@ Users can test the NER performance on their own PDF geoscientific documents rela
 - **Demonstration of the use of a geoschema**: Uses the [OzROCK](https://github.com/majiga/OzROCK) schema.
 - **NER Model Training/Evaluation**: Scripts to train or evaluate a Flair-based SequenceTagger.
 - **Visual Evaluation**: Generates confusion matrices and F1 score plots per entity class.
-- **Flexible Schema Extension**: Easily adapt or extend to other geological schemas.
 
 ---
 
@@ -64,7 +63,6 @@ If you prefer to run this project on your local machine, ensure you have Git and
     ```
 
 ## How to Use
-## How to use
 
 Follow these steps to use the `GeoNER-SchemaEval` framework:
 
@@ -81,19 +79,6 @@ Follow these steps to use the `GeoNER-SchemaEval` framework:
     * Confusion matrices and F1 scores will be generated to assess performance.
 
 > **Note on Schema:** The model has been primarily trained with the OzRock schema. You can adapt the code to use other geological schemas if needed.
-1. **Prepare your Corpus**
-   - Place your PDF files in a new folder, e.g., `data/pdf/`
-
-2. **Run the Preprocessing Script**
-   - Extract sentences using `pdfplumber`
-
-3. **Train or Evaluate the NER Model**
-   - Use the provided script to train the model on OzRock or evaluate NER tagging.
-
-4. **Review the Outputs**
-   - Confusion matrix and F1 scores will be generated to assess performance.
-
-> The model has been trained with the OzRock schema. You can adapt the code to use other schemas if needed.
 
 ---
 
@@ -105,20 +90,18 @@ Note: Some of the PDFs used in our experiments were obtained via institutional a
 ---
 
 ## Citation
+
 If you use this repository, code, or dataset in your research, please cite the following publication:
 
-Villacorta, S.P., Lindsay, M., Klump, J., Gessner, K., Gray, E., & McFarlane, H. Assessing Named Entity Recognition by using Geosciences Domain Schemas: The case of Mineral Systems. Frontiers in Earth Science, 13, 1530004. [https://doi.org/10.3389/feart.2025.123456](https://doi.org/10.3389/feart.2025.1530004)
-
-BibTeX
-
+```bibtex
 @article{Villacorta2025GeoNER,
-  title     = {Assessing Named Entity Recognition by using Geosciences Domain Schemas: The case of Mineral Systems},
-  author    = {Villacorta, S.P., Lindsay, M., Klump, J., Gessner, K., Gray, E., & McFarlane, H},
-  journal   = {Frontiers in Earth Science},
-  year      = {2025},
-  volume    = {13},
-  pages     = {1--16},
-  doi       = {[10.3389/feart.2025.123456](https://doi.org/10.3389/feart.2025.1530004)}
+  title = {Assessing Named Entity Recognition by using Geosciences Domain Schemas: The Case of Mineral Systems},
+  author = {Villacorta, S.P., Lindsay, M., Klump, J., Gessner, K., Gray, E., & McFarlane, H.},
+  journal = {Frontiers in Earth Science},
+  year = {2025},
+  volume = {13},
+  pages = {1--16},
+  doi = {10.3389/fearth.2025.123456}
 }
 
 And acknowledge:
