@@ -109,22 +109,26 @@ And acknowledge:
 
 ---
 
+
 ## License
 
 This repository is licensed under the MIT [LICENSE](LICENSE).
 
 ---
 
+
 ## Contact
 Please email your questions or comments to Sandra Villacorta.
 
 ---
+
 
 ## Contributing
 
 We welcome pull requests and suggestions for improvement. Please open an issue to discuss your ideas.
 
 ---
+
 
 ## Acknowledgments
 
