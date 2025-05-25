@@ -1,7 +1,6 @@
 # GeoNER-SchemaEval
-This project provides a framework for evaluating Named Entity Recognition (NER) in geoscientific texts using the [Flair NLP library](https://github.com/flairNLP/flair) and domain-specific schemas. It supports user-provided PDF corpora and integrates the [OzROCK](https://github.com/majiga/OzROCK) schema, for entity tagging.
-Users can test the NER performance on their own geoscientific documents related to mineral systems, using pretrained models and schema-based annotations.
-
+This project provides a framework for evaluating Named Entity Recognition (NER) in geoscientific texts using the [Flair NLP library](https://github.com/flairNLP/flair) and domain-specific schemas like the [OzROCK](https://github.com/majiga/OzROCK), for entity tagging.
+Users can test the NER performance on their own PDF geoscientific documents related to mineral systems, using pretrained models and schema-based annotations.
 ---
 
 ## Features
@@ -64,8 +63,7 @@ If you prefer to run this project on your local machine, ensure you have Git and
     ```
 
 ```
-
-
+---
 ## How to Use
 
 1. **Prepare your Corpus**
