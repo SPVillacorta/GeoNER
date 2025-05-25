@@ -7,7 +7,7 @@ Users can test the NER performance on their own geoscientific documents related 
 ## Features
 
 - **Custom Corpus Compatibility**: Use your own PDF files on mineral systems (e.g., on gold, rare earths) for NER evaluation.
-- **Integrated OzRock Schema**: Uses the OzRock schema available at [OzROCK](https://github.com/majiga/OzROCK).
+- **Demonstration of the use of a geoschema**: Uses the [OzROCK](https://github.com/majiga/OzROCK) schema.
 - **NER Model Training/Evaluation**: Scripts to train or evaluate a Flair-based SequenceTagger.
 - **Visual Evaluation**: Generates confusion matrices and F1 score plots per entity class.
 - **Flexible Schema Extension**: Easily adapt or extend to other geological schemas.
@@ -27,9 +27,7 @@ Visual outputs such as confusion matrices and class-wise F1 scores.
 
 ...
 
-## Installation
-
-## Running Locally
+## Installation (Running Locally)
 
 If you prefer to run this project on your local machine, ensure you have Git and Python (preferably with `conda` or `venv`) installed.
 
